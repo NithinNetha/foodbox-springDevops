@@ -1,6 +1,6 @@
 FROM openjdk:8
 
-ADD target/foodbox-spring.jar jenkins-springboot.jar
+ADD target/foodbox-spring.jar foodbox-spring.jar
 
 EXPOSE 8080
 
